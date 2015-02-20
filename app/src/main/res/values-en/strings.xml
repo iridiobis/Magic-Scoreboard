@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_three_players">3 players</string>
+    <string name="main_two_players">2 players</string>
+    <string name="main_2vs2">2 vs 2</string>
+    <string name="namePlayers_playerFormat">Player %d</string>
+    <string name="namePlayers_teamFormat">Team %d</string>
+    <string name="namePlayers_title">Name players</string>
+    <string name="namePlayers_start">Start</string>
+</resources>

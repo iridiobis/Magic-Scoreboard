@@ -4,5 +4,15 @@
     <string name="app_name">Magic Scoreboard</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_contadores">Contadores</string>
+    <string name="title_activity_nameplayers">@string/namePlayers_title</string>
+    <string name="main_three_players">3 jugadores</string>
+    <string name="main_two_players">2 jugadores</string>
+    <string name="main_2vs2">2 vs 2</string>
+    <string name="namePlayers_playerFormat">Jugador %d</string>
+    <string name="namePlayers_teamFormat">Equipo %d</string>
+    <string name="namePlayers_title">Nombrar jugadores</string>
+    <string name="namePlayers_start">Empezar</string>
+
 
 </resources>

@@ -2,33 +2,53 @@
 <es.benitos.magicscoreboard.views.ScoreView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/borde"
+    android:layout_margin="5dp"
+    android:layout_centerInParent="true"
+
+
+>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+"
+        android:textSize="80sp"
         android:id="@+id/score_add"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-"
+        android:textSize="80sp"
         android:id="@+id/score_subtract"
-        android:layout_below="@id/score_add"
-        android:layout_alignParentRight="true" />
+
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/score_score"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@id/score_add"
-        android:layout_alignTop="@id/score_add"
-        android:layout_alignBottom="@id/score_subtract"
+        android:layout_toRightOf="@id/score_add"
+        android:layout_toLeftOf="@id/score_subtract"
+        android:layout_below="@+id/score_name"
         android:textStyle="bold"
         android:textSize="60sp"
         android:gravity="center"
-        tools:text="30"/>
+        tools:text="30"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/score_name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/score_add"
+        android:layout_toLeftOf="@id/score_subtract"
+        android:textSize="20sp"
+        android:gravity="center"/>
 </es.benitos.magicscoreboard.views.ScoreView>
